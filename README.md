@@ -128,11 +128,15 @@ fun_facts:
 
 ---
 
-## 📈 Profile Summary
+## 🎮 Contribution Activity
 
 <div align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=omikhan4901&theme=github_dark&title_color=2dd4bf&chart_color=2dd4bf&animation=draw" width="100%" />
 </div>
+
+---
+
+## 📊 Profile Breakdown
 
 <div align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=omikhan4901&theme=github_dark&title_color=2dd4bf&chart_color=2dd4bf&animation=draw" width="32%" />&nbsp;
