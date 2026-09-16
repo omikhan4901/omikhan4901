@@ -123,12 +123,7 @@ fun_facts:
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=omikhan4901&show_icons=true&theme=merko&hide_border=true&bg_color=0d1117&title_color=2dd4bf&icon_color=2dd4bf&text_color=a8b2d8&ring_color=2dd4bf" />
-  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=omikhan4901&layout=compact&theme=merko&hide_border=true&bg_color=0d1117&title_color=2dd4bf&text_color=a8b2d8&langs_count=8" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=omikhan4901&theme=merko&hide_border=true&background=0d1117&ring=2dd4bf&fire=2dd4bf&currStreakLabel=2dd4bf" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=omikhan4901&theme=merko&hide_border=true&background=0d1117&ring=2dd4bf&fire=2dd4bf&currStreakLabel=2dd4bf&sideLabels=2dd4bf&dates=a8b2d8" />
 </div>
 
 ---
@@ -141,32 +136,10 @@ fun_facts:
 
 ---
 
-## 🎮 Contribution Activity
+## 🟢 Contribution Graph
 
 <div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/omikhan4901/omikhan4901/output/pacman-contribution-graph-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/omikhan4901/omikhan4901/output/pacman-contribution-graph.svg" />
-  <img alt="Pac-Man eating contributions" src="https://raw.githubusercontent.com/omikhan4901/omikhan4901/output/pacman-contribution-graph-dark.svg" width="100%" />
-</picture>
-
-<sub>👾 Pac-Man devouring commits — auto-updated daily via GitHub Actions</sub>
-
-</div>
-
-### 🏙️ 3D Contribution Skyline
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/omikhan4901/omikhan4901/main/profile-3d-contrib/profile-night-green.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/omikhan4901/omikhan4901/main/profile-3d-contrib/profile-season-animate.svg" />
-  <img alt="3D Contribution Skyline" src="https://raw.githubusercontent.com/omikhan4901/omikhan4901/main/profile-3d-contrib/profile-night-green.svg" width="100%" />
-</picture>
-
-<sub>🏗️ Every bar is a day of commits — auto-updated daily</sub>
-
+  <img src="https://ghchart.rshah.org/2dd4bf/omikhan4901" alt="omikhan4901's contribution graph" width="100%" />
 </div>
 
 ---
