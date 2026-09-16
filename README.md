@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href="https://github.com/omikhan4901">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=2DD4BF&center=true&vCenter=true&width=900&lines=Hey+%F0%9F%91%8B+%E2%80%94+I%27m+Omi;Intern+SWE+%40+Automata+One+%C2%B7+one.bd;Final-year+CSE+%40+North+South+University;Bangla+ASR+Research+%F0%9F%8E%99%EF%B8%8F+%C2%B7+WER+34.85%25+%E2%86%92+32.29%25;Privacy-first+mobile+%C2%B7+Full-stack+%C2%B7+CompProg" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=2DD4BF&center=true&vCenter=true&width=900&lines=Hey+%F0%9F%91%8B+%E2%80%94+I%27m+Omi;Intern+SWE+%40+Automata+One+%C2%B7+one.bd;Final-year+CSE+%40+North+South+University;AI+%2F+ML+Inference+%C2%B7+Full-stack+Engineer;Privacy-first+mobile+apps+%C2%B7+Building+in+public" alt="Typing SVG" />
   </a>
 </h1>
 
@@ -17,8 +17,8 @@
   <a href="https://linkedin.com/in/YOUR_LINKEDIN">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="https://asr-phi.vercel.app">
-    <img src="https://img.shields.io/badge/ASR%20Demo-Live-2dd4bf?style=for-the-badge&logo=vercel&logoColor=white" />
+  <a href="https://cse299-omi.vercel.app">
+    <img src="https://img.shields.io/badge/ResumeX-Live%20Demo-2dd4bf?style=for-the-badge&logo=vercel&logoColor=white" />
   </a>
 </p>
 
@@ -33,19 +33,19 @@ education: B.Sc in CSE @ North South University  # final semester
 current_role: Intern Software Engineer @ Automata One (one.bd)
 
 what_i_ship:
-  - Bangla ASR rescoring pipeline — WER 34.85% → 32.29%, no fine-tuning
+  - Deep learning inference pipeline: N-best hypothesis rescoring + MBR decoding on distributed GPUs
   - BondhuKoi: privacy-first campus location app, zero raw GPS stored
   - ResumeX: AI resume builder with Gemini, live & deployed
 
-stack_i_reach_for: [Next.js, React Native, FastAPI, Whisper, Node.js, Postgres, PostGIS]
-background: "Started with Java + JS web dev. Went down the ML rabbit hole. No regrets."
-currently_into: [Speech Recognition, LLM Reasoning, System Design, Competitive Programming]
-currently_debugging: "why WER refused to drop below 32% past 3am"
+stack_i_reach_for: [Next.js, React Native, FastAPI, Node.js, Express, Discord.js, Postgres, PostGIS]
+background: "Java + JS web dev roots. Got pulled into AI/ML. Now I build both ends."
+currently_into: [AI inference systems, LLM reasoning, full-stack engineering, system design]
+learning_next: [DSA & competitive programming (just getting started!), advanced TypeScript]
 
 fun_facts:
-  - Two shipped mobile apps built while studying for finals
-  - Codeforces grind (C++) — the algorithm problems don't solve themselves
-  - Best debugger is a good night's sleep (and sometimes Modal GPU logs)
+  - Shipped two mobile apps while studying for finals
+  - Built Discord bots before it was cool (Discord.js v12 era)
+  - Best debugger is a good night's sleep
 ```
 
 ---
@@ -55,15 +55,15 @@ fun_facts:
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🎙️ <a href="https://github.com/omikhan4901/asr">Bangla ASR Rescoring</a></h3>
+      <h3>🤖 <a href="https://github.com/omikhan4901/asr">DL Inference Pipeline</a></h3>
       <p><em>CSE499 Capstone &nbsp;·&nbsp; Whisper &nbsp;·&nbsp; Python &nbsp;·&nbsp; Modal GPUs</em></p>
-      <p>Inference-only N-best + MBR rescoring for long-form Bangla speech. Smarter decoding, no weight updates.</p>
+      <p>Inference-only deep learning system: N-best hypothesis generation + Minimum Bayes Risk decoding, no model fine-tuning required.</p>
       <ul>
-        <li>WER: <strong>34.85% → 32.29%</strong> on 2,271 utterances</li>
-        <li>VAD chunking → group-aware split → distributed GPU inference</li>
-        <li>Recovers ~42% of oracle headroom</li>
+        <li>Distributed GPU inference via Modal — <strong>WER drop on 2,271 test utterances</strong></li>
+        <li>VAD chunking → group-aware batching → probability-weighted MBR</li>
+        <li>Recovers ~42% of oracle headroom at inference time</li>
       </ul>
-      <p><a href="https://asr-phi.vercel.app">🌐 Live video-to-SRT demo</a></p>
+      <p><a href="https://asr-phi.vercel.app">🌐 Live speech-to-SRT demo</a></p>
     </td>
     <td width="50%" valign="top">
       <h3>📍 <a href="https://github.com/omikhan4901/bondhukoi">BondhuKoi</a></h3>
@@ -112,7 +112,7 @@ fun_facts:
   <img src="https://skillicons.dev/icons?i=java,js,ts,python,cpp,html,css&theme=dark" />
 </p>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=nextjs,react,fastapi,nodejs,express,tailwind&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=nextjs,react,fastapi,nodejs,express,discord&theme=dark" />
 </p>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=mongodb,postgres,supabase,git,github,vscode,linux,bash&theme=dark" />
@@ -133,10 +133,10 @@ fun_facts:
 
 ---
 
-## 🏆 Trophies
+## 📈 Activity Graph
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=omikhan4901&theme=darkhub&no-frame=true&no-bg=true&row=1&column=6" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=omikhan4901&bg_color=0d1117&color=2dd4bf&line=2dd4bf&point=ffffff&area=true&hide_border=true" width="100%" />
 </div>
 
 ---
@@ -159,15 +159,19 @@ fun_facts:
 
 ## 💼 Experience & Education
 
+<div align="center">
+
 | | Role | Where | Period |
-|---|---|---|---|
+|:---:|:---|:---|:---|
 | 💼 | **Intern Software Engineer** | [Automata One](https://one.bd) | 2026 – Present |
 | 🎓 | **B.Sc in CSE** | North South University | Graduating 2026 |
+
+</div>
 
 ---
 
 <div align="center">
-  <i>⚡ "Ship the demo. Write the paper. Fix the WER at 3am." ⚡</i>
+  <i>⚡ "Build clean. Ship fast. Learn everything." ⚡</i>
   <br/><br/>
   <b>Building things that don't exist yet 🌱</b>
 </div>
