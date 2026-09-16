@@ -100,9 +100,29 @@ fun_facts:
       </ul>
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🚗 <a href="https://github.com/omikhan4901/campusride">CampusRide</a></h3>
+      <p><em>React Native (Expo) &nbsp;·&nbsp; Express &nbsp;·&nbsp; Socket.io &nbsp;·&nbsp; Supabase &nbsp;·&nbsp; FCM</em></p>
+      <p>University-only ride-share — only verified students get in.</p>
+      <ul>
+        <li>Google Cloud Vision OCR to verify student ID cards on signup</li>
+        <li>Domain-gated emails (<code>@northsouth.edu</code> etc.)</li>
+        <li>Real-time matching via Socket.io + push notifications via FCM</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>⚙️ <a href="https://github.com/omikhan4901/cse323-xv6">xv6 MLFQ Scheduler</a></h3>
+      <p><em>C &nbsp;·&nbsp; xv6-riscv &nbsp;·&nbsp; OS internals</em></p>
+      <p>Modified the MIT xv6 kernel with a 3-level Multi-Level Feedback Queue scheduler.</p>
+      <ul>
+        <li>4-tick / 8-tick Round Robin → FCFS at lowest level</li>
+        <li>Priority demotion, aging, and 100-tick global priority boost</li>
+        <li>Custom <code>procdump</code> + <code>spin</code> test program to verify behavior</li>
+      </ul>
+    </td>
+  </tr>
 </table>
-
-<sub>Also on GitHub: an xv6 MLFQ scheduler in C (3-level queue, priority boost, aging), and a ride-share app with Socket.io + Google Cloud Vision OCR on student IDs.</sub>
 
 ---
 
