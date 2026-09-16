@@ -26,34 +26,26 @@
 
 ## 🧑‍💻 About Me
 
-```bash
-omi@automata-one:~$ whoami
-# Mehboob Ehsan Khan Omi — Intern SWE @ Automata One · one.bd · NSU final year
+```yaml
+name: Mehboob Ehsan Khan Omi
+location: Dhaka, Bangladesh
+education: B.Sc in CSE @ North South University  # final semester
+current_role: Intern Software Engineer @ Automata One (one.bd)
 
-omi@automata-one:~$ cat about.sh
+what_i_ship:
+  - Deep learning inference pipeline: N-best rescoring + MBR on distributed GPUs
+  - BondhuKoi: privacy-first campus location app — zero raw GPS stored
+  - ResumeX: AI resume builder with Gemini — live & deployed
 
-  NAME="Mehboob Ehsan Khan Omi"
-  LOCATION="Dhaka, Bangladesh"
-  EDUCATION="B.Sc in CSE @ North South University"  # final semester
-  ROLE="Intern Software Engineer @ Automata One (one.bd)"
+stack: [Next.js, React Native, FastAPI, Node.js, Express, Discord.js, Postgres, PostGIS]
+background: "Java + JS web dev roots. Got pulled into AI/ML. Now I build both ends."
+currently_into: [AI inference systems, LLM reasoning, full-stack engineering, system design]
+learning_next: [DSA + competitive programming (just getting started!), advanced TypeScript]
 
-  WHAT_I_SHIP=(
-    "Deep learning inference pipeline: N-best rescoring + MBR on distributed GPUs"
-    "BondhuKoi: privacy-first campus location app — zero raw GPS stored"
-    "ResumeX: AI resume builder with Gemini — live & deployed"
-  )
-
-  STACK=("Next.js" "React Native" "FastAPI" "Node.js" "Express" "Discord.js" "Postgres" "PostGIS")
-  BACKGROUND="Java + JS web dev roots. Got pulled into AI/ML. Now I build both ends."
-  CURRENTLY_INTO=("AI inference systems" "LLM reasoning" "full-stack engineering" "system design")
-  LEARNING_NEXT=("DSA + competitive programming (just getting started!)" "advanced TypeScript")
-
-  # fun facts
-  echo "→ Shipped two mobile apps while studying for finals"
-  echo "→ Built Discord bots before it was cool (Discord.js v12 era)"
-  echo "→ Best debugger is a good night's sleep"
-
-omi@automata-one:~$ _
+fun_facts:
+  - Shipped two mobile apps while studying for finals
+  - Built Discord bots before it was cool (Discord.js v12 era)
+  - Best debugger is a good night's sleep
 ```
 
 ---
