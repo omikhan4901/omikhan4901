@@ -128,18 +128,16 @@ fun_facts:
 
 ---
 
-## 📈 Activity Graph
+## 📈 Profile Summary
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=omikhan4901&bg_color=0d1117&color=2dd4bf&line=2dd4bf&point=ffffff&area=true&hide_border=true" width="100%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=omikhan4901&theme=github_dark&title_color=2dd4bf&chart_color=2dd4bf&animation=draw" width="100%" />
 </div>
 
----
-
-## 🟢 Contribution Graph
-
 <div align="center">
-  <img src="https://ghchart.rshah.org/2dd4bf/omikhan4901" alt="omikhan4901's contribution graph" width="100%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=omikhan4901&theme=github_dark&title_color=2dd4bf&chart_color=2dd4bf&animation=draw" width="32%" />&nbsp;
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=omikhan4901&theme=github_dark&title_color=2dd4bf&chart_color=2dd4bf&animation=draw" width="32%" />&nbsp;
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=omikhan4901&theme=github_dark&title_color=2dd4bf&animation=draw" width="32%" />
 </div>
 
 ---
