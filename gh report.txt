@@ -1,0 +1,166 @@
+Here’s a resume-oriented report on **all 13 repositories** under [omikhan4901](https://github.com/omikhan4901) (10 public, 3 private). I ranked them for **what a recruiter or hiring manager would actually take from GitHub + a resume**, not star count.
+
+**Headline:** you have one genuinely strong research/engineering project (`asr`) and two real product apps (`bondhukoi`, ResumeX). The rest is course work, early Discord bots, and unfinished ideas. The profile README is the weakest part of the whole account — it still reads like 2021 and does not mention ML, Python, systems, or any of the 2025–2026 work.
+
+---
+
+## Ranking (resume value)
+
+| Rank | Repo | Visibility | One-line | Resume score |
+|------|------|------------|----------|--------------|
+| 1 | [`asr`](https://github.com/omikhan4901/asr) | **Private** | Bangla long-form ASR: Whisper N-best + MBR rescoring, measured WER drop, live demo | **9/10** (0/10 on GitHub until public) |
+| 2 | [`bondhukoi`](https://github.com/omikhan4901/bondhukoi) | Public | Privacy-first campus location app (geofences, PostGIS, no raw GPS stored) | **8/10** |
+| 3 | [`cse299`](https://github.com/omikhan4901/cse299) (ResumeX) | Public + live | AI resume builder (MERN + Gemini), deployed | **7.5/10** |
+| 4 | [`campusride`](https://github.com/omikhan4901/campusride) | **Private** | Student ride-share: Expo, Socket.io, OCR ID check, FCM | **7/10** (hidden) |
+| 5 | [`327_Company_Management_System`](https://github.com/omikhan4901/327_Company_Management_System) | Public | FastAPI HR/payroll app with real design patterns + pytest | **6/10** |
+| 6 | [`cse323-xv6`](https://github.com/omikhan4901/cse323-xv6) | **Private** | xv6 MLFQ scheduler, aging, priority boost | **6/10** (hidden; systems roles love this) |
+| 7 | [`CSE445_Youtube_View_Prediction_Model`](https://github.com/omikhan4901/CSE445_Youtube_View_Prediction_Model) | Public | Ensemble ML notebook (XGBoost + RF) on YouTube stats | **5/10** |
+| 8 | [`5amCommits`](https://github.com/omikhan4901/5amCommits) | Public | Community React site + contributor “cubicle” architecture | **4.5/10** |
+| 9 | [`DaGrind`](https://github.com/omikhan4901/DaGrind) | Public | Chrome extension that blocks distracting sites | **4/10** |
+| 10 | [`Static-Helper`](https://github.com/omikhan4901/Static-Helper) | Public | Discord bot → Google Sheets for GW2 raid logs | **3.5/10** |
+| 11 | [`pandabot`](https://github.com/omikhan4901/pandabot) | Public | 2021 Discord.js bot, `node_modules` committed | **2.5/10** |
+| 12 | [`lastwords`](https://github.com/omikhan4901/lastwords) | Public | Unfinished “dead man’s switch” email app | **2/10** |
+| — | [`omikhan4901`](https://github.com/omikhan4901/omikhan4901) | Public | Profile README only | Not a project |
+
+---
+
+## What each one actually is
+
+### 1. `asr` — put this first on the resume
+CSE499 capstone: inference-only rescoring for Bangla long-form ASR. Pipeline is VAD chunking → group-aware split → Whisper N-best on Modal GPUs → probability-weighted MBR. Eval numbers: **1-best WER 34.85% → MBR 32.29%**, recovering ~42% of oracle headroom with no weight updates. Demo at [asr-phi.vercel.app](https://asr-phi.vercel.app).
+
+**Why it wins:** real research question, measured results, distributed GPU jobs, web demo. This is the only repo that looks like engineering, not coursework.
+
+**Problems:** still **private**, so recruiters cannot click it. GitHub currently has venv junk (`Scripts/`, `pyvenv.cfg`, `share/`). Course-code repo name (`asr`) undersells it.
+
+**Resume bullet:**
+> Built an inference-only Bangla ASR pipeline (Whisper N-best + MBR) that cut WER from 34.85% to 32.29% on 2,271 utterances without fine-tuning; shipped a video-to-SRT demo.
+
+---
+
+### 2. `bondhukoi` — best *public* product
+React Native (Expo) + Fastify + Supabase/PostGIS. Friends share **zone presence** (campus, library, circle polygon), not raw GPS. Server-side point-in-polygon, sleep window, kill-switch, JWT + Google sign-in. Has a [YouTube demo](https://youtube.com/shorts/_Thc_gN7YzY) and a 29 KB `DOCUMENTATION.md`.
+
+**Why it ranks high:** original product idea, privacy story, spatial DB, mobile + backend. Recruiters remember “we never store GPS.”
+
+**Problems:** **1 commit** (looks dumped). No GitHub description. Course-ish name is fine; the README is actually good.
+
+**Resume bullet:**
+> Built BondhuKoi, a privacy-first campus location app: PostGIS geofences, server-side PIP, and no stored GPS coordinates.
+
+---
+
+### 3. `cse299` / ResumeX — best “I can ship a web app”
+MERN (Vite + Ant Design + Express + Mongo + JWT) with Gemini: PDF/DOCX parse, bullet rewrite, resume chatbot, 9 templates, live at [cse299-omi.vercel.app](https://cse299-omi.vercel.app/). 21 commits, public, polished README.
+
+**Why it ranks high:** deployed, full-stack, AI feature, recruiter can click and try it in 30 seconds.
+
+**Problems:** repo name is a course code. Resume builders + Gemini are common. Custom “context router” instead of React Router is a small smell, not a dealbreaker.
+
+**Resume bullet:**
+> Shipped ResumeX, an AI resume builder (React/Express/Mongo + Gemini) with PDF parse, ATS templates, and a live demo.
+
+---
+
+### 4. `campusride` — strong, but invisible
+University-only ride-share: Expo app + Express + Socket.io + Supabase + FCM + Google Cloud Vision OCR on student IDs. Domain-gated emails (`@northsouth.edu`, etc.).
+
+**Why it would rank high:** realtime, identity, mobile, Dhaka-specific problem.
+
+**Problems:** **private**, **1 commit**, no homepage. Same dump pattern as BondhuKoi.
+
+---
+
+### 5. `327_Company_Management_System` — course project done properly
+FastAPI + SQLite company app: RBAC, nested departments, attendance, payroll strategies, PDF reports, audit log. Explicit Adapter / Composite / Strategy / Observer / Factory / Facade. **pytest suite** (attendance, auth, payroll, reports, tasks). Group project (you + 3 others).
+
+**Why it belongs on GitHub:** tests + named patterns. Most student FastAPI apps have neither.
+
+**Problems:** textbook CMS. `main.py` is ~44 KB. Default admin/admin in the README. `__pycache__` and `audit.log` committed.
+
+Use it as a **secondary** backend bullet, not the lead.
+
+---
+
+### 6. `cse323-xv6` — systems signal, currently hidden
+MIT xv6-riscv with a 3-level **MLFQ**: 4/8-tick RR then FCFS, demotion, 100-tick global boost, `procdump` + `spin` test.
+
+**Why it matters:** C + kernel + scheduling. Strong for backend/systems internships; irrelevant for most frontend roles.
+
+**Problems:** private. Language stats are dominated by upstream Assembly, so GitHub will look like “Assembly project” unless the README leads with *your* diff.
+
+---
+
+### 7. `CSE445_Youtube_View_Prediction_Model` — standard ML homework
+Jupyter + sklearn/XGBoost on “Global YouTube Statistics” (995 channels). Log target, 5-fold CV, GridSearch/RandomizedSearch, averaging ensemble. README claims R² ~0.98 on original-scale views.
+
+**Caveat:** `subscribers` as the top feature predicting `video views` is almost tautological. A sharp ML interviewer will poke that. Fine as “I can run a supervised pipeline”; do not lead with the 0.98.
+
+---
+
+### 8. `5amCommits` — collaboration more than product
+Vite + React 19 community site with a “cubicle” feature-isolation model, protected `main`, CONTRIBUTING.md. 3 contributors. Shows you can run a group process.
+
+Not a portfolio piece unless there is a live site and 1–2 finished features you personally own.
+
+---
+
+### 9. `DaGrind` — small personal product
+Chrome extension (Vite) to block YouTube/Instagram/etc. 19 commits, GIFs in the README, never published to the Web Store.
+
+Good “I ship side projects” evidence. Too small to carry a resume.
+
+---
+
+### 10. `Static-Helper` — niche Discord + Sheets
+discord.js v14 + Google Sheets API to upload GW2 raid logs. Real personal tooling. Narrow, 4 commits, no OAuth yet (README says one static only).
+
+Mention only if applying somewhere that cares about bots/integrations.
+
+---
+
+### 11. `pandabot` — 2021 Discord bot
+discord.js v12 + MySQL + canvas. 22 commits, **no README**, **`node_modules` committed** (~19 MB). Proof you started early. Hide or archive it; it currently makes the profile look older and messier than you are.
+
+---
+
+### 12. `lastwords` — unfinished dead-man’s-switch
+React 17 + Express + Mongo + cron + nodemailer. Idea: if you stop confirming emails, send “last words.” README is still “Still working on this.” Created 2020, last push 2025. Incomplete. Do not pin.
+
+---
+
+### 13. Profile README (`omikhan4901`)
+Still: “student… currently learning React Native… Vue.js… Discord.js… web-scraping… leetcode.” No Python, no ML, no ASR, no FastAPI, no PostGIS, no live links. That is the first thing recruiters read.
+
+---
+
+## What to actually put on a resume
+
+Pick **3 projects**, max 4. Suggested set:
+
+1. **Bangla ASR rescoring** (`asr`) — research + systems + results  
+2. **BondhuKoi** — mobile + privacy + spatial backend  
+3. **ResumeX** — full-stack + AI + live URL  
+
+Optional 4th, role-dependent:
+- Systems/backend internships → **xv6 MLFQ**
+- Backend/API internships → **Company Management System**
+- Mobile internships → **CampusRide** instead of ResumeX
+
+Leave off: YouTube notebook, 5amCommits, DaGrind, Static-Helper, pandabot, lastwords.
+
+---
+
+## GitHub hygiene that will move the needle more than new projects
+
+1. **Make `asr` public** (or a cleaned public mirror). A private capstone does not exist for recruiters.  
+2. **Make `campusride` and `cse323-xv6` public** if there is no IP reason not to.  
+3. **Pin 4–6 repos:** `asr`, `bondhukoi`, `cse299`, `campusride` (if public), `327_…` or `cse323-xv6`.  
+4. **Rename or describe in GitHub:** set the description field. `cse299` should show as “ResumeX — AI resume builder”. `asr` should not be a blank description.  
+5. **Archive** `pandabot` and `lastwords`. They pull the profile down.  
+6. **Rewrite the profile README** around: who you are now, 3 featured projects with links, stack (Python/JS/RN), live demos. Drop “currently learning React Native” — you already shipped two RN apps.  
+7. Course dumps with **1 commit** (`bondhukoi`, `campusride`) look like zip uploads. Even a few logical commits (feat, docs, deploy) reads as real work.
+
+---
+
+If you want, I can write the new GitHub profile README next (pinned-project layout, live links, stack badges) using this ranking, without touching the ASR paper repo.
