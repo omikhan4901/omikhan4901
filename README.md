@@ -155,6 +155,20 @@ fun_facts:
 
 </div>
 
+### 🏙️ 3D Contribution Skyline
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/omikhan4901/omikhan4901/main/profile-3d-contrib/profile-night-green.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/omikhan4901/omikhan4901/main/profile-3d-contrib/profile-season-animate.svg" />
+  <img alt="3D Contribution Skyline" src="https://raw.githubusercontent.com/omikhan4901/omikhan4901/main/profile-3d-contrib/profile-night-green.svg" width="100%" />
+</picture>
+
+<sub>🏗️ Every bar is a day of commits — auto-updated daily</sub>
+
+</div>
+
 ---
 
 ## 💼 Experience & Education
