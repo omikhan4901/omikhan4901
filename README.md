@@ -147,10 +147,7 @@ Select hard text anywhere, press one key, and a clearer version appears right ne
 
 ## What I work with
 
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=ts,js,python,java,rust,c,bash,nextjs,react,nodejs,express,fastapi,tailwind,threejs,postgres,mongodb,sqlite,redis,supabase,docker,gcp,cloudflare,vercel,git,linux&perline=13&theme=light" />
-  <img src="https://skillicons.dev/icons?i=ts,js,python,java,rust,c,bash,nextjs,react,nodejs,express,fastapi,tailwind,threejs,postgres,mongodb,sqlite,redis,supabase,docker,gcp,cloudflare,vercel,git,linux&perline=13&theme=dark" alt="TypeScript, JavaScript, Python, Java, Rust, C, Bash, Next.js, React, Node.js, Express, FastAPI, Tailwind, Three.js, PostgreSQL, MongoDB, SQLite, Redis, Supabase, Docker, Google Cloud, Cloudflare, Vercel, Git, Linux" />
-</picture>
+<img src="https://skillicons.dev/icons?i=ts,js,python,java,rust,c,bash,nextjs,react,nodejs,express,fastapi,tailwind,threejs,postgres,mongodb,sqlite,redis,supabase,docker,gcp,cloudflare,vercel,git,linux&perline=13&theme=dark" alt="TypeScript, JavaScript, Python, Java, Rust, C, Bash, Next.js, React, Node.js, Express, FastAPI, Tailwind, Three.js, PostgreSQL, MongoDB, SQLite, Redis, Supabase, Docker, Google Cloud, Cloudflare, Vercel, Git, Linux" />
 
 <br />
 
