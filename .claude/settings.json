@@ -1,0 +1,12 @@
+{
+  "attribution": {
+    "commit": "",
+    "pr": ""
+  },
+  "env": {
+    "GIT_AUTHOR_NAME": "Omi Khan",
+    "GIT_AUTHOR_EMAIL": "mehboobehsankhan@gmail.com",
+    "GIT_COMMITTER_NAME": "Omi Khan",
+    "GIT_COMMITTER_EMAIL": "mehboobehsankhan@gmail.com"
+  }
+}
