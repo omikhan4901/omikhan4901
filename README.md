@@ -108,10 +108,10 @@ See which friends are on campus, without anyone seeing where you are.
 <tr>
 <td width="50%" valign="top">
 
-### [Text Explainer](https://github.com/omikhan4901/text_explainer)
-<img src="https://img.shields.io/badge/in_progress-Windows_MVP-8250DF?style=flat-square" alt="In progress, Windows MVP" />
+### [Plainly](https://github.com/omikhan4901/text_explainer)
+<a href="https://github.com/omikhan4901/text_explainer/releases/download/latest-build/Plainly-x64-setup.exe"><img src="https://img.shields.io/badge/free_preview-Windows_download-8250DF?style=flat-square" alt="Free preview, download for Windows" /></a>
 
-Select hard text anywhere, press one key, and a clearer version appears right next to it. Fully offline on an 8 GB laptop with no graphics card.
+Select hard text in any Windows app, press a shortcut, and read it in plain words right next to it. The AI runs on your own computer, on an 8 GB laptop with no graphics card.
 
 </td>
 <td width="50%" valign="top">
@@ -125,11 +125,12 @@ Select hard text anywhere, press one key, and a clearer version appears right ne
 </tr>
 </table>
 
-- Plain-language rewrites at the level you pick, keeping every number, date and name, with a reading-grade badge before and after
-- It checks itself: if a rewrite drops or invents a number, the card says so, and a grammar keeps the model in your language token by token
-- A small open model through llama.cpp, or bring any GGUF file or a local Ollama / LM Studio server. Nothing you read leaves your machine
+- A card that opens beside the selection without taking focus: web searches, an offline dictionary, and a local AI that explains at the level you pick or translates privately
+- The default model was chosen by an evaluation harness over 28 passages: Gemma 4 E2B, 5.8 s median per rewrite on a 4-core CPU and 3.9 GB of memory
+- It checks itself: a meaning check flags a dropped or invented number, date or name, and a GBNF grammar keeps the model in the right language token by token
+- Signed self-updates, and every push builds, smoke-tests and publishes the Windows installer
 
-<sub>**Rust · Tauri 2 · React · TypeScript · llama.cpp · SQLite** &nbsp;·&nbsp; 111 Rust tests and Playwright checks in CI on a Windows runner; first release next</sub>
+<sub>**Rust · Tauri 2 · React · TypeScript · llama.cpp · SQLite** &nbsp;·&nbsp; 201 Rust tests, 37 unit tests and 118 Playwright checks (WCAG 2.2 AA, light and dark) before every push</sub>
 
 <br />
 
